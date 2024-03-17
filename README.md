@@ -45,8 +45,9 @@ Suppose we have the following preference lists for men and women:
     'm1': ['w1', 'w2', 'w3'],
     'm2': ['w2', 'w1', 'w3'],
     'm3': ['w1', 'w2', 'w3']
-}
-women_preferences = {
+}``
+
+``women_preferences = {
     'w1': ['m1', 'm2', 'm3'],
     'w2': ['m3', 'm2', 'm1'],
     'w3': ['m1', 'm3', 'm2']
