@@ -40,18 +40,23 @@ python 3.x
 
 Suppose we have the following preference lists for men and women:
 
-```python
-men_preferences = {
+
+``men_preferences = {
     'm1': ['w1', 'w2', 'w3'],
     'm2': ['w2', 'w1', 'w3'],
     'm3': ['w1', 'w2', 'w3']
-}
+}``
 
-women_preferences = {
+``women_preferences = {
     'w1': ['m1', 'm2', 'm3'],
     'w2': ['m3', 'm2', 'm1'],
     'w3': ['m1', 'm3', 'm2']
-}
+}``
+
+returns the matching pairs by preferences
+       
+![Stable_Matching](https://github.com/kainoa7/Stable_Matching/assets/97155994/9b46948e-6184-448c-be71-5e9ecb2b7a98)
+
 
 
 
